@@ -11161,6 +11161,12 @@ body.sidebar-toggled footer.sticky-footer {
     height: 30mm;
   }
   .product-box{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+  .less{
+    font-size:  0.75rem !important;
+  }
+  p{
+    font-weight: bolder;
   }
 }
