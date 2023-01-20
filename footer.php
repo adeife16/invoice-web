@@ -29,7 +29,7 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-md-12 col-sm-12">
-        <p class="">PHONES|LAPTOPS|GADGETS|ACCESSORIES</p>
+        <p class="less text-center">PHONES|LAPTOPS|GADGETS|ACCESSORIES</p>
         <p class="text-center">2,OSHITELU STREET COMPUTER VILLAGE, IKEJA</p>
         <p class="text-center"><i class="fas fa-phone"></i>07053112479, 07044842350, 08063127611</p>
         <p class="text-center"><i class="fab fa-instagram"></i> Switch_Phones_Gadgets</p>
@@ -42,17 +42,19 @@
     <p>Customer Address: <span id="customer-address"></span></p>
     <p>Customer Phone: <span id="customer-phone"></span></p>
     <hr>
-    <p><span class="date float-left"></span> <span class="invoiceID float-right"></span></p>
-      <div id="product-list">
+    <p><span class="date less float-left"></span> <span class="invoiceID less float-right"></span></p>
+    <p>.</p>
+    <div id="product-list">
 
-      </div>
+    </div>
     <hr>
     <p class="float-right">TOTAL <span class="prnt-total"></span></p>
     <p class="words"></p>
-    <hr>
-    <br><br><br>
+    <!-- <hr> -->
+    <p>.</p>
+    <p>.</p>
     <p><span class="float-left">----------------</span> <span class="float-right">----------------</span></p>
-    <p><span class="customer-sign float-left">Customer Signature</span> <span class="ceo-sign float-right">CEO Sign and Stamp</span></p>
+    <p><span class="customer-sign less float-left">Customer Signature</span> <span class="ceo-sign less float-right">CEO Sign and Stamp</span></p>
   </div>
 
 </div>
