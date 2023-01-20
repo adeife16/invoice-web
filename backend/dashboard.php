@@ -10,7 +10,10 @@ $request_array = array();
 
 if(isset($_POST['dashboardData']))
 {
-  $riders = mysqli_query($con,"SELECT * FROM rider");
+  $year = date('Y');
+  $year_start = $year . '-' . '01-01';
+  $year_end = $year . '-' . '12-31';
+  $year = mysqli_query($con,"SELECT price FROM web_sales WHERE date_created BETWEEN '$year_start' AND '$year_end'");
   $rider_employed = mysqli_query($con,"SELECT * FROM rider WHERE employment_status = 'Employed'");
   $companies = mysqli_query($con,"SELECT * FROM company ");
   $requests = mysqli_query($con, "SELECT * FROM employment WHERE status = 'pending'");
