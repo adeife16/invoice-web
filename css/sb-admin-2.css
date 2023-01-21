@@ -11138,6 +11138,7 @@ body.sidebar-toggled footer.sticky-footer {
   }
   html, body{
     width: 80mm !important;
+    font-family: sans-serif;
   }
   #content, .navbar-nav{
     display: none;
@@ -11167,6 +11168,6 @@ body.sidebar-toggled footer.sticky-footer {
     font-size:  0.75rem !important;
   }
   p{
-    font-weight: bolder;
+    font-weight: 900;
   }
 }
