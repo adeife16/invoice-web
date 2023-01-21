@@ -53,7 +53,7 @@
     <p class="words"></p>
     <!-- <hr> -->
     <p>.</p>
-    <p>.</p>
+
     <p><span class="float-left">------------------</span> <span class="float-right">------------------</span></p>
     <p><span class="customer-sign less float-left">Customer Signature</span> <span class="ceo-sign less float-right">CEO Sign and Stamp</span></p>
   </div>
