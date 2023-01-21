@@ -41,6 +41,7 @@
     <p>Customer Name: <span id="customer-name"></span></p>
     <p>Customer Address: <span id="customer-address"></span></p>
     <p>Customer Phone: <span id="customer-phone"></span></p>
+    <p>Payment Mode: <span id="payment-type"></span></p>
     <hr>
     <p><span class="date less float-left"></span> <span class="invoiceID less float-right"></span></p>
     <p>.</p>
@@ -53,7 +54,7 @@
     <!-- <hr> -->
     <p>.</p>
     <p>.</p>
-    <p><span class="float-left">----------------</span> <span class="float-right">----------------</span></p>
+    <p><span class="float-left">------------------</span> <span class="float-right">------------------</span></p>
     <p><span class="customer-sign less float-left">Customer Signature</span> <span class="ceo-sign less float-right">CEO Sign and Stamp</span></p>
   </div>
 
@@ -111,15 +112,10 @@
   <script src="ajax/invoice.js" charset="utf-8"></script>
 <?php endif; ?>
 
-<!-- Edit product page scripts -->
-<?php if ($title == "Edit Product"): ?>
-  <link rel="stylesheet" href="vendor/select2/dist/css/select2.min.css">
-  <link rel="stylesheet" href="css/jquery.imagesloader.css">
-  <script type="text/javascript" src="js/jquery.imagesloader-1.0.1.js"></script>
-  <script src="vendor/select2/dist/js/select2.full.min.js" charset="utf-8"></script>
-  <script src="ajax/edit_product.js" charset="utf-8"></script>
-  <script src="js/edit_product.js" charset="utf-8"></script>
-<?php endif; ?>
+<?php if ($title == "Record"): ?>
+  <script type="text/javascript" src="js/record.js"></script>
+  <script type="text/javascript" src="ajax/record.js"></script>
+<?php endif ?>
 
 <!-- Page level plugins -->
 <!-- <script src="vendor/chart.js/Chart.min.js"></script> -->

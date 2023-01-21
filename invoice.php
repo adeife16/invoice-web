@@ -58,6 +58,14 @@ require_once 'header.php';
 		<div class="form-group">
 			<textarea class="form-control" id="address" name="address" placeholder="Customer Address"></textarea> 
 		</div>
+		<div class="form-group">
+			<label>Payment Mode</label>
+			<select class="form-control" id="payment">
+				<option value="Cash">Cash</option>
+				<option value="Transfer">Transfer</option>
+				<option value="Cash and Transfer">Cash and Transfer</option>
+			</select>
+		</div>
 	</div>
 </div>
 
