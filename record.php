@@ -12,9 +12,7 @@ require_once 'header.php';
 				<input type="text" id="search" name="search" class="form-control" placeholder="IMEI/Serial">				
 			</div>
 			<div class="form-group">
-			<button type="button" class="btn btn-success search-btn" id="search-btn">
-				SEARCH
-			</button>
+			<button type="button" class="btn btn-success search-btn" id="search-btn" >SEARCH</button>
 			</div>
 		</form>
 		<hr>
@@ -29,7 +27,7 @@ require_once 'header.php';
 					<td>Date</td>
 				</tr>
 			</thead>
-			<tbody class="record">
+			<tbody class="record" id="record">
 				
 			</tbody>
 		</table>
