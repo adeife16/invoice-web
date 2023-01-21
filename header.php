@@ -73,11 +73,11 @@ if (!(isset($_SESSION['id'])))
         </li> -->
 
         <!-- Companies -->
-      <li class="nav-item active">
+<!--       <li class="nav-item active">
         <a class="nav-link" href="index.php">
           <i class="fas fa-fw fa-users"></i>
           <span>Users</span></a>
-      </li>
+      </li> -->
 
 
         <!-- Employment -->
@@ -137,6 +137,7 @@ if (!(isset($_SESSION['id'])))
                   <i class="fa fa-bars"></i>
                 </button>
                 <!-- Topbar Navbar -->
+                <span>Welcome <?php print $_SESSION['username']; ?></span>
                 <ul class="navbar-nav ml-auto">
                   <!-- Reqest Alerts -->
                   <li class="nav-item dropdown no-arrow mx-1">
@@ -158,25 +159,25 @@ if (!(isset($_SESSION['id'])))
                   </li>
                   <!-- Nav Item - User Information -->
                   <li class="nav-item dropdown no-arrow">
-                    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="logout.php" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       <i class="fa fa-user"></i>
                     </a>
                     <!-- Dropdown - User Information -->
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                      <a class="dropdown-item" href="../index.php">
+<!--                       <a class="dropdown-item" href="../index.php">
                         <i class="fas fa-home fa-sm fa-fw mr-2 text-gray-400"></i>
                         Home
                       </a>
                       <a class="dropdown-item" href="#">
                       <i class="fas fa-store fa-sm fa-fw mr-2 text-gray-400"></i>
                         Shop
-                      </a>
+                      </a> -->
                       <!-- <a class="dropdown-item" href="#">
                       <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                       Activity Log
                       </a> -->
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <a class="dropdown-item" href="logout.php" data-toggle="modal" data-target="#logoutModal">
                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                     Logout
                   </a>
