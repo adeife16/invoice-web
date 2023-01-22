@@ -1,24 +1,19 @@
 // Get all dashboard data
 function getDashboardData(){
   $.ajax({
-    url: 'backend/dashboard.php',
-    type: 'POST',
-    cache: false,
-    data: {dashboardData: 'value1'},
-    beforeSend: function(){
-
-    }
+    url: 'backend/dashboard.php?dashdata',
+    type: 'GET'
   })
   .done(function(response) {
     data = JSON.parse(response);
-    console.log(data);
-    var riders = data[0].riders;
-    var ridersEmploy = data[1].ridersEmployed;
-    var companies = data[2].companies;
-    var request = data[3].requests;
-    showRiders(riders);
-    showRidersEmploy(ridersEmploy);
-    showCompanies(companies);
+    // console.log(data);
+    $("#year").html(nairaConvert(data.year));
+    $("#month").html(nairaConvert(data.month));
+    $("#today").html(nairaConvert(data.today));
+    $("#sales").html(data.sales + " Products");
+    // showRiders(riders);
+    // showRidersEmploy(ridersEmploy);
+    // showCompanies(companies);
     // showRequest(request)
   })
   // .fail(function() {

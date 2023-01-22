@@ -1,88 +1,90 @@
 <?php
-require 'functions.php';
+require 'config.php';
 
-$json = array();
+
 $data = array();
-$riders_array = array();
-$rider_employed_array = array();
-$companies_array = array();
-$request_array = array();
 
-if(isset($_POST['dashboardData']))
+
+if(isset($_GET['dashdata']))
 {
+  $year_total = 0;
+  $month_total = 0;
+  $day_total = 0;
   $year = date('Y');
+  $month = date('m');
+  $today = date('Y-m-d');
   $year_start = $year . '-' . '01-01';
   $year_end = $year . '-' . '12-31';
-  $year = mysqli_query($con,"SELECT price FROM web_sales WHERE date_created BETWEEN '$year_start' AND '$year_end'");
-  $rider_employed = mysqli_query($con,"SELECT * FROM rider WHERE employment_status = 'Employed'");
-  $companies = mysqli_query($con,"SELECT * FROM company ");
-  $requests = mysqli_query($con, "SELECT * FROM employment WHERE status = 'pending'");
-  if($riders)
+  $month_start = $year . '-' . $month . '-01';
+  $month_end = $year . '-' . $month . '-31';
+  $year = mysqli_query($con,"SELECT * FROM web_sales WHERE date_created BETWEEN '$year_start' AND '$year_end'");
+  $month = mysqli_query($con,"SELECT * FROM web_sales WHERE date_created BETWEEN '$month_start' AND '$month_end'");
+  $day = mysqli_query($con,"SELECT * FROM web_sales WHERE date_created = '$today'");
+  $count = mysqli_query($con,"SELECT COUNT(*) as number FROM web_order ");
+
+
+  if($year)
   {
-    while($row = mysqli_fetch_assoc($riders))
+    while($row = mysqli_fetch_assoc($year))
     {
-      unset($row['password']);
-      array_push($riders_array, $row);
+      $year_total += intval($row['total']);
     }
-    array_push($json, array("riders" => $riders_array));
+
   }
-  if($rider_employed)
+  if($month)
   {
-    while($row = mysqli_fetch_assoc($rider_employed))
+    while($row = mysqli_fetch_assoc($month))
     {
-      unset($row['password']);
-      array_push($rider_employed_array, $row);
+      $month_total += intval($row['total']);
     }
-    array_push($json, array("ridersEmployed" => $rider_employed_array));
+
   }
-  if($companies)
+  if($day)
   {
-    while($row = mysqli_fetch_assoc($companies))
+    while($row = mysqli_fetch_assoc($day))
     {
-      unset($row['password']);
-      array_push($companies_array, $row);
+      $day_total += intval($row['total']);
     }
-    array_push($json, array("companies" => $companies_array));
+
   }
-  if($requests)
+  if($count)
   {
-    while($row = mysqli_fetch_assoc($requests))
-    {
-      array_push($request_array, $row);
-    }
-    array_push($json, array("requests" => $request_array));
+    $row = mysqli_fetch_assoc($count);
+    $sales = $row['number'];
   }
+  $json = array("year" => $year_total, "month" => $month_total, "today" => $day_total, "sales" => $sales);
   print json_encode($json);
 
 }
 
 
-// get all new requests
-if(isset($_POST['getRequest']))
-{
-  $get_req = mysqli_query($con, "SELECT * FROM employment WHERE view = 'no' ORDER BY id DESC LIMIT 5");
-  if($get_req)
-  {
-    while($row = mysqli_fetch_assoc($get_req))
-    {
-      array_push($json, $row);
-    }
-    print json_encode($json);
-  }
-  else
-  {
-    $get_req = mysqli_query($con, "SELECT * FROM employment WHERE view = 'yes' ORDER BY id DESC LIMIT 5");
-    if($get_req)
-    {
-      while($row = mysqli_fetch_assoc($get_req))
-      {
-        array_push($json, $row);
-      }
-      print json_encode($json);
-    }
-    else
-    {
 
-    }
-  }
-}
+// // get all new requests
+// if(isset($_POST['getRequest']))
+// {
+//   $get_req = mysqli_query($con, "SELECT * FROM employment WHERE view = 'no' ORDER BY id DESC LIMIT 5");
+//   if($get_req)
+//   {
+//     while($row = mysqli_fetch_assoc($get_req))
+//     {
+//       array_push($json, $row);
+//     }
+//     print json_encode($json);
+//   }
+//   else
+//   {
+//     $get_req = mysqli_query($con, "SELECT * FROM employment WHERE view = 'yes' ORDER BY id DESC LIMIT 5");
+//     if($get_req)
+//     {
+//       while($row = mysqli_fetch_assoc($get_req))
+//       {
+//         array_push($json, $row);
+//       }
+//       print json_encode($json);
+//     }
+//     else
+//     {
+
+//     }
+//   }
+// }

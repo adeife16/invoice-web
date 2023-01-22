@@ -14,7 +14,7 @@ require_once 'header.php';
         <div class="row no-gutters align-items-center">
           <div class="col mr-2">
             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">SALES(THIS YEAR)</div>
-            <div class="h5 mb-0 font-weight-bold text-gray-800" id="year">4354654</div>
+            <div class="h5 mb-0 font-weight-bold text-gray-800" id="year"></div>
           </div>
           <div class="col-auto">
             <span class="fa-2x text-gray-300">&#8358;</span>
@@ -46,10 +46,10 @@ require_once 'header.php';
       <div class="card-body">
         <div class="row no-gutters align-items-center">
           <div class="col mr-2">
-            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">sales(this week)</div>
+            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">sales(today)</div>
             <div class="row no-gutters align-items-center">
               <div class="col-auto">
-                <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800" id="week"></div>
+                <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800" id="today"></div>
               </div>
             </div>
           </div>
@@ -67,11 +67,11 @@ require_once 'header.php';
       <div class="card-body">
         <div class="row no-gutters align-items-center">
           <div class="col mr-2">
-            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">sales(today)</div>
-            <div class="h5 mb-0 font-weight-bold text-gray-800" id="today"></div>
+            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Sold products</div>
+            <div class="h5 mb-0 font-weight-bold text-gray-800" id="sales"></div>
           </div>
           <div class="col-auto">
-            <span class="fa-2x text-gray-300">&#8358;</span>
+            <span class="fa-2x text-gray-300"><i class="fas fa-tag"></i></span>
           </div>
         </div>
       </div>
