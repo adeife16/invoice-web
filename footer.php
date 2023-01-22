@@ -93,6 +93,7 @@
 
 <!-- Dashboard page scripts -->
 <?php if ($title == "Dashboard"): ?>
+  <script src="vendor/chart.js/Chart.bundle.min.js" charset="utf-8"></script>
   <script src="js/dashboard.js" charset="utf-8"></script>
   <script src="ajax/dashboard.js" charset="utf-8"></script>
 <?php endif; ?>

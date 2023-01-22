@@ -60,7 +60,6 @@ require_once 'header.php';
       </div>
     </div>
   </div>
-
   <!-- Pending Requests Card Example -->
   <div class="col-xl-3 col-md-6 mb-4">
     <div class="card border-left-warning shadow h-100 py-2">
@@ -74,6 +73,20 @@ require_once 'header.php';
             <span class="fa-2x text-gray-300"><i class="fas fa-tag"></i></span>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="card shadow mb-4">
+      <div class="card-header py-3">
+          <h6 class="m-0 font-weight-bold color-blue">Area Chart</h6>
+      </div>
+      <div class="card-body">
+          <div class="chart-area">
+              <canvas id="myAreaChart"></canvas>
+          </div>
       </div>
     </div>
   </div>

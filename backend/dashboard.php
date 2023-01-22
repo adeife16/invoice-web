@@ -35,6 +35,7 @@ if(isset($_GET['dashdata']))
   {
     while($row = mysqli_fetch_assoc($month))
     {
+
       $month_total += intval($row['total']);
     }
 
@@ -58,33 +59,25 @@ if(isset($_GET['dashdata']))
 }
 
 
+if(isset($_GET['chartdata']))
+{
+  $year = date('Y');
 
-// // get all new requests
-// if(isset($_POST['getRequest']))
-// {
-//   $get_req = mysqli_query($con, "SELECT * FROM employment WHERE view = 'no' ORDER BY id DESC LIMIT 5");
-//   if($get_req)
-//   {
-//     while($row = mysqli_fetch_assoc($get_req))
-//     {
-//       array_push($json, $row);
-//     }
-//     print json_encode($json);
-//   }
-//   else
-//   {
-//     $get_req = mysqli_query($con, "SELECT * FROM employment WHERE view = 'yes' ORDER BY id DESC LIMIT 5");
-//     if($get_req)
-//     {
-//       while($row = mysqli_fetch_assoc($get_req))
-//       {
-//         array_push($json, $row);
-//       }
-//       print json_encode($json);
-//     }
-//     else
-//     {
-
-//     }
-//   }
-// }
+  for($i=1; $i<=12; $i++)
+  {
+    $total = 0;
+    if($i < 10)
+    {
+      $i = '0' . $i;
+    }
+    $start = $year.'-'.$i.'-01';
+    $end = $year.'-'.$i.'-31';
+    $chart = mysqli_query($con, "SELECT * FROM web_sales WHERE date_created BETWEEN '$start' AND '$end'");
+    while($row = mysqli_fetch_assoc($chart))
+    {
+      $total += $row['total'];
+    }
+    array_push($data, $total);
+  }
+  print json_encode($data);
+}
