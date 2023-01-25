@@ -45,17 +45,19 @@
     <hr>
     <p><span class="date less float-left"></span> <span class="invoiceID less float-right"></span></p>
     <p>.</p>
-    <div id="product-list">
+    <div class="mt-2" id="product-list">
 
     </div>
     <hr>
     <p class="float-right">TOTAL <span class="prnt-total"></span></p>
     <p class="words"></p>
     <!-- <hr> -->
-    <p>.</p>
-
-    <p><span class="float-left">------------------</span> <span class="float-right">------------------</span></p>
-    <p><span class="customer-sign less float-left">Customer Signature</span> <span class="ceo-sign less float-right">CEO Sign and Stamp</span></p>
+    <div class="p-2 pt-5 mt-1" style="border: 2px solid rgba(0, 0, 0, 0.2); border-bottom: 0px; margin-bottom: 0px; padding-bottom: 0px;">
+      <p><span class="float-left">------------------</span> <span class="float-right">------------------</span></p>
+    </div>
+    <div class="p-2" style="border: 2px solid rgba(0, 0, 0, 0.2); border-top: 0px; margin-top: 0px; padding-top: 0px;">
+      <p><span class="customer-sign less float-left">Customer Signature</span> <span class="ceo-sign less float-right">CEO Sign and Stamp</span></p>
+    </div>
   </div>
 
 </div>
@@ -93,7 +95,6 @@
 
 <!-- Dashboard page scripts -->
 <?php if ($title == "Dashboard"): ?>
-  <script src="vendor/chart.js/Chart.bundle.min.js" charset="utf-8"></script>
   <script src="js/dashboard.js" charset="utf-8"></script>
   <script src="ajax/dashboard.js" charset="utf-8"></script>
 <?php endif; ?>
