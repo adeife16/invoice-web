@@ -52,10 +52,10 @@
     <p class="float-right">TOTAL <span class="prnt-total"></span></p>
     <p class="words"></p>
     <!-- <hr> -->
-    <div class="p-2 pt-5 mt-1" style="border: 2px solid rgba(0, 0, 0, 0.8); border-bottom: 0px; margin-bottom: 0px; padding-bottom: 0px;">
+    <div class="p-2 pt-5 mt-1" style="margin-bottom: 0px; padding-bottom: 0px;">
       <p style="margin-top: 0px !important; margin-bottom: 0px !important;"><span class="float-left">------------------</span> <span class="float-right">------------------</span></p>
     </div>
-    <div class="p-2" style="border: 2px solid rgba(0, 0, 0, 0.8); border-top: 0px; margin-top: 0px; padding-top: 0px; margin-top: 0px !important; padding-top: 0px !important; margin-bottom: 10px;">
+    <div class="p-2" style="margin-top: 0px; padding-top: 0px; margin-top: 0px !important; padding-top: 0px !important; margin-bottom: 10px;">
       <p><span class="customer-sign less float-left">Customer Signature</span> <span class="ceo-sign less float-right">CEO Sign and Stamp</span></p>
     </div>
   </div>
