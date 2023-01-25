@@ -11132,7 +11132,7 @@ body.sidebar-toggled footer.sticky-footer {
 /*Print*/
 @media print{
   @page{
-    size: 80mm 200mm !important;
+    size: 80mm 310mm !important;
     size: portrait;
     margin: 2mm 2mm 2mm 2mm !important;
   }
