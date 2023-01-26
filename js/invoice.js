@@ -81,6 +81,7 @@ function save(){
 	let name = $("#customer").val();
 	let phone = $("#phone").val();
 	let address = $("#address").val();
+	let payment = $("#payment").val();
 
 	for(index in row){
 		if($("#product-"+row[index]).val() != "" || $("#price-"+row[index]).val() != ""){		
@@ -98,7 +99,7 @@ function save(){
 		alert_failure("Invoice is empty!");
 	}
 	else{
-		saveInvoice(invoice, name, phone, address, lot);
+		saveInvoice(invoice, name, phone, address, payment, lot);
 	}
 }
 
@@ -110,6 +111,7 @@ function printInvoice(){
 	let name = $("#customer").val();
 	let phone = $("#phone").val();
 	let address = $("#address").val();
+	let payment = $("#payment").val();
 	let product;
 	let imei;
 	let color;
@@ -120,6 +122,7 @@ function printInvoice(){
 	$("#customer-name").html(name);
 	$("#customer-address").html(address);
 	$("#customer-phone").html(phone);
+	$("#payment-type").html(payment)
 
 	$(".date").html(getDate());
 	$(".invoiceID").html($("#invoice-id").val())
