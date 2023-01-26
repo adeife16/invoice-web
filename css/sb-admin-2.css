@@ -11169,5 +11169,6 @@ body.sidebar-toggled footer.sticky-footer {
   }
   p{
     font-weight: 900;
+    margin-bottom: 0px !important;
   }
 }
