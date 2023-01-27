@@ -11171,4 +11171,14 @@ body.sidebar-toggled footer.sticky-footer {
     font-weight: 900;
     margin-bottom: 0px !important;
   }
+  .sign{
+    display: flex;
+    flex-direction: row;
+  }
+  .customer img{
+    width: 40mm;
+  }
+  .ceo img{
+    width: 40mm;
+  }
 }
