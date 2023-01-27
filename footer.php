@@ -52,11 +52,13 @@
     <p class="float-right">TOTAL <span class="prnt-total"></span></p>
     <p class="words"></p>
     <!-- <hr> -->
-    <div class="p-2 pt-5 mt-1" style="margin-bottom: 0px; padding-bottom: 0px;">
-      <p style="margin-top: 0px !important; margin-bottom: 0px !important;"><span class="float-left">__________________</span> <span class="float-right">__________________</span></p>
-    </div>
-    <div class="p-2" style="margin-top: 0px; padding-top: 0px; margin-top: 0px !important; padding-top: 0px !important; margin-bottom: 10px;">
-      <p><span class="customer-sign less float-left">Customer Signature</span> <span class="ceo-sign less float-right">CEO Sign and Stamp</span></p>
+    <div class="sign">
+      <div class="customer">
+        <img src="img/customer.jpg">
+      </div>
+      <div class="ceo">
+        <img src="img/ceo.jpg">
+      </div>
     </div>
   </div>
 
@@ -95,7 +97,6 @@
 
 <!-- Dashboard page scripts -->
 <?php if ($title == "Dashboard"): ?>
-<script src="vendor/chart.js/Chart.bundle.min.js"></script>
   <script src="js/dashboard.js" charset="utf-8"></script>
   <script src="ajax/dashboard.js" charset="utf-8"></script>
 <?php endif; ?>
