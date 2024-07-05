@@ -1,53 +1,67 @@
 <?php
-require_once 'config.php';
 
+$sales_file = file_get_contents('../db/sales.json');
+$order_file = file_get_contents('../db/order.json');
+$sales = json_decode($sales_file, true);
+$orders = json_decode($order_file, true);
 $data = array();
 
-if(isset($_GET['sales']))
+function getSalesWithOrders($sales, $orders)
 {
-	$stmt = "SELECT o.*, s.customer, s.date_created FROM web_order o, web_sales s WHERE o.order_id=s.order_id";
-	$sales = mysqli_prepare($con, $stmt);
-	mysqli_execute($sales);
-	$result = mysqli_stmt_get_result($sales);
-	// print_r($result);
-	if($result)
+	$data = [];
+	foreach ($orders as $order)
 	{
-		while($row = mysqli_fetch_assoc($result))
+		foreach ($sales as $sale)
 		{
-			array_push($data, $row);
+			if ($order['order_id'] == $sale['order_id'])
+			{
+				$combined = $order;
+				$combined['customer'] = $sale['customer'];
+				$combined['date_created'] = $sale['date_created'];
+				$data[] = $combined;
+			}
 		}
-		$json = array("status" => "success", "data" => $data);
 	}
-	else
-	{
-		$json = array("status" => "error");
-	}
+	return $data;
+}
+
+if (isset($_GET['sales']))
+{
+	$data = getSalesWithOrders($sales, $orders);
+	$json = array("status" => "success", "data" => $data);
 	print json_encode($json);
 }
 
-elseif(isset($_GET['search']) && $_GET['search'] != "")
+elseif (isset($_GET['search']) && $_GET['search'] != "")
 {
 	$query = $_GET['search'];
-	$query = '%'.$query.'%';
+	$query = strtolower($query);
+	$search_results = [];
 
-	$stmt = "SELECT o.*, s.customer, s.date_created FROM web_order o, web_sales s WHERE o.order_id=s.order_id AND o.imei LIKE ?";
-	$search = mysqli_prepare($con, $stmt);
-	mysqli_stmt_bind_param($search,'s', $query);
-	mysqli_execute($search);
-	$result = mysqli_stmt_get_result($search);
-	// print_r($result);
-	if($result)
+	foreach ($orders as $order)
 	{
-		while($row = mysqli_fetch_assoc($result))
+		if (strpos(strtolower($order['imei']), $query) !== false || strpos(strtolower($order['product']), $query) !== false)
 		{
-			array_push($data, $row);
+			foreach ($sales as $sale)
+			{
+				if ($order['order_id'] == $sale['order_id'])
+				{
+					$combined = $order;
+					$combined['customer'] = $sale['customer'];
+					$combined['date_created'] = $sale['date_created'];
+					$search_results[] = $combined;
+				}
+			}
 		}
-		$json = array("status" => "success", "data" => $data);
+	}
+
+	if (!empty($search_results))
+	{
+		$json = array("status" => "success", "data" => $search_results);
 	}
 	else
 	{
-		// $json = array("status" => "error");
-		$json = array("status" => mysqli_error($con));
+		$json = array("status" => "error", "message" => "No matching records found");
 	}
 	print json_encode($json);
 }

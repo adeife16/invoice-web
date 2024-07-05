@@ -1,83 +1,92 @@
 <?php
-	require_once 'config.php';
 
-	$data = array();
-
-	// get invouce id
-	if(isset($_GET['getid']))
+function getJsonData($filePath)
+{
+	if (!file_exists($filePath))
 	{
-		$stmt = "SELECT count(*) as num FROM web_sales";
-		$id = mysqli_prepare($con, $stmt);
-		mysqli_execute($id);
-		$result = mysqli_stmt_get_result($id);
-		// print_r($result);
-		if($result)
-		{
-			$row = mysqli_fetch_assoc($result);
-			print $row['num'];
-		}
-		else
-		{
-			print "here";
-		}
-
+		return [];
 	}
 
-	// save invoice
-	if(isset($_POST['save']) && $_POST['lot'] != "")
+	$fileContents = file_get_contents($filePath);
+	if ($fileContents === false)
 	{
-		$error = 0;
-		$order_id = str_shuffle(substr(md5(time().mt_rand().time()), 0,20));
-		$invoice_id = $_POST['save'];
-		$name = $_POST['name'];
-		$phone = $_POST['phone'];
-		$addr = $_POST['address'];
-		$list = $_POST['lot'];
-		$product = "";
-		$imei = "";
-		$color = "";
-		$memory = "";
-		$price = "";
-		$total = 0;
-
-		for($i=0; $i<count($list); $i++)
-		{
-			$product = $list[$i]['product'];
-			$imei = $list[$i]['imei'];
-			$color = $list[$i]['color'];
-			$memory = $list[$i]['memory'];
-			$price = $list[$i]['price'];
-			$total += intval($price);
-
-			$stmt = "INSERT INTO web_order(order_id, invoice_id, product, imei, color, memory, amount) VALUES(?,?,?,?,?,?,?)";
-			$save = mysqli_prepare($con, $stmt);
-			mysqli_stmt_bind_param($save, 'ssssssi', $order_id, $invoice_id, $product, $imei, $color, $memory, $price);
-			if(mysqli_execute($save))
-			{
-
-			}
-			else
-			{
-				$error = 1;
-				print mysqli_error($con);
-				break;
-			}
-		}
-		if($error != 1)
-		{
-			$stmt2 = "INSERT INTO web_sales(order_id, invoice_id, customer, address, phone, total, date_created) VALUES(?,?,?,?,?,?,NOW())";
-
-			$sales = mysqli_prepare($con, $stmt2);
-			mysqli_stmt_bind_param($sales, 'sssssi', $order_id, $invoice_id, $name, $addr, $phone, $total);
-			if(mysqli_execute($sales))
-			{
-				print "success";
-			}
-			else
-			{
-				print mysqli_error($con);
-			}
-		}
-
-
+		return [];
 	}
+
+	$data = json_decode($fileContents, true);
+	if (json_last_error() !== JSON_ERROR_NONE)
+	{
+		return [];
+	}
+
+	return $data;
+}
+
+$sales = getJsonData('../db/sales.json');
+$orders = getJsonData('../db/order.json');
+
+if (isset($_GET['getid']))
+{
+	echo count($sales);
+	exit;
+}
+
+if (isset($_POST['save']) && !empty($_POST['lot']))
+{
+	$order_id = str_shuffle(substr(md5(time() . mt_rand()), 0, 20));
+	$invoice_id = $_POST['save'];
+	$name = $_POST['name'];
+	$phone = $_POST['phone'];
+	$addr = $_POST['address'];
+	$payment = $_POST['payment'];
+	$list = $_POST['lot'];
+	$total = 0;
+
+	foreach ($list as $item)
+	{
+		$product = $item['product'];
+		$imei = $item['imei'];
+		$color = $item['color'];
+		$memory = $item['memory'];
+		$price = $item['price'];
+		$total += intval($price);
+
+		$orders[] = [
+			"order_id" => $order_id,
+			"invoice_id" => $invoice_id,
+			"product" => $product,
+			"imei" => $imei,
+			"color" => $color,
+			"memory" => $memory,
+			"amount" => $price
+		];
+	}
+
+	if (file_put_contents('../db/order.json', json_encode($orders, JSON_PRETTY_PRINT)) === false)
+	{
+		echo "Failed to save orders.";
+		exit;
+	}
+
+	$sales_data = [
+		"id" => count($sales),
+		"order_id" => $order_id,
+		"invoice_id" => $invoice_id,
+		"customer" => $name,
+		"address" => $addr,
+		"phone" => $phone,
+		"total" => $total,
+		"payment" => $payment,
+		"date_created" => date("Y-m-d H:i:s")
+	];
+
+	$sales[] = $sales_data;
+
+	if (file_put_contents('../db/sales.json', json_encode($sales, JSON_PRETTY_PRINT)) === false)
+	{
+		echo "Failed to save sales.";
+		exit;
+	}
+
+	echo "success";
+}

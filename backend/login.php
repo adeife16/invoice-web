@@ -1,8 +1,8 @@
 <?php
-require 'config.php';
+session_start();
+$users = file_get_contents('../db/user.json');
 
-$json = array();
-$data = array();
+$json = [];
 
 if(isset($_POST["user"]) && $_POST["user"] != "")
 {
@@ -10,61 +10,46 @@ if(isset($_POST["user"]) && $_POST["user"] != "")
   $pass = $_POST['pass'];
   if($user == "" || $pass == "")
   {
-    print "empty";
+    echo "empty";
   }
 
   else
   {
-    $stmt = "SELECT * FROM user WHERE username = ?";
-    $get_stmt = mysqli_prepare($con, $stmt);
-    mysqli_stmt_bind_param($get_stmt, "s", $user);
-    mysqli_execute($get_stmt);
-    $result = mysqli_stmt_get_result($get_stmt);
-    if($result)
+    $user_decode = json_decode($users, true);
+    
+    $search_user = array_filter($user_decode, function($item) use ($user) {
+      return $item['username'] == $user;
+    });
+    if(count($search_user) == 0)
     {
-      if(mysqli_num_rows($result)  == 1)
-      {
-        while($row = mysqli_fetch_assoc($result))
-        {
-          $admin_id = $row['user_id'];
-          $username = $row['username'];
-          $password = $row['password'];
-        }
+      $request = array('status' =>  'invalid');
+      return;
+    }
+    $user_data = $search_user[0];
 
-        if(password_verify($pass, $password))
-        {
-          session_destroy();
-          session_start();
+    // print_r($user_data);
+    // exit;
 
-          $_SESSION['id'] = $admin_id;
-          $_SESSION['username'] = $username;
+    $admin_id = $user_data['user_id'];
+    $username = $user_data['username'];
+    $password = $user_data['password_hash'];
 
-          $request = array("status" => "success");
-          array_push($json, $request);
+    if(password_verify($pass, $password))
+    {
+      session_destroy();
+      session_start();
 
-          $session = array("session_id" => $_SESSION['id'], "session_name" => $_SESSION['username']);
+      $_SESSION['id'] = $admin_id;
+      $_SESSION['username'] = $username;
 
-          array_push($json, $session);
-          print json_encode($json);
+      $request = array("status" => "success");
+      array_push($json, $request);
 
-        }
-        else
-        {
-          $request = array('status' =>  'invalid');
-          array_push($json, $request);
+      $session = array("session_id" => $_SESSION['id'], "session_name" => $_SESSION['username']);
 
-          print json_encode($json);
+      array_push($json, $session);
+      print json_encode($json);
 
-        }
-
-      }
-      else
-      {
-        $request = array('status' =>  'invalid');
-        array_push($json, $request);
-
-        print json_encode($json);
-      }
     }
     else
     {
@@ -72,8 +57,9 @@ if(isset($_POST["user"]) && $_POST["user"] != "")
       array_push($json, $request);
 
       print json_encode($json);
+
     }
+
   }
 
 }
- 

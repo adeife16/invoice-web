@@ -111,12 +111,15 @@
 
 <!-- Create product page scripts -->
 <?php if ($title == "Invoice"): ?>
-
   <script src="js/invoice.js"></script>
   <script src="ajax/invoice.js" charset="utf-8"></script>
 <?php endif; ?>
 
 <?php if ($title == "Record"): ?>
+  <link rel="stylesheet" href="vendor/datatables/datatables.min.css">
+  <script src="vendor/datatables/datatables.min.js"></script>
+  <script src="vendor/html2canvas.hertzen.com_dist_html2canvas.min.js"></script>
+  <script src="vendor/xlsx.full.min.js"></script>
   <script type="text/javascript" src="js/record.js"></script>
   <script type="text/javascript" src="ajax/record.js"></script>
 <?php endif ?>

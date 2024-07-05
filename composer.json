@@ -1,0 +1,22 @@
+{
+    "name": "startbootstrap/startbootstrap-sb-admin-2",
+    "description": "An open source Bootstrap 4 admin theme.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template",
+        "admin",
+        "app"
+    ],
+    "license": "MIT",
+    "require": {
+        "fortawesome/font-awesome": "5.15.3",
+        "twbs/bootstrap": "4.6.0",
+        "chartjs/chart.js": "2.9.4",
+        "datatables/datatables": "1.10.24",
+        "components/jquery": "3.6.0"
+    }
+}

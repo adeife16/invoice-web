@@ -1,6 +1,7 @@
 $(document).ready(function(){
 sessionStorage.setItem("row", [0]);
 getId();
+$("#print").attr('disabled', 'disabled');
 })
 
 // add product

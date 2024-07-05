@@ -1,0 +1,2092 @@
+[
+	{
+		"id": "1",
+		"order_id": "72497caaa01e12b0276d",
+		"invoice_id": "SW-00001",
+		"product": "BRAND NEW IPHONE 14 PRO MAX [SWAPPING ]",
+		"imei": "350813229336328",
+		"color": "DEEP PURPLE",
+		"memory": "128GB",
+		"amount": "485000"
+	},
+	{
+		"id": "2",
+		"order_id": "958514415fad609dd892",
+		"invoice_id": "SW-00002",
+		"product": "BRAND NEW IPHONE 14PROMAX[SWAPPING]ROMAX]",
+		"imei": "353791983226926",
+		"color": "GOLD",
+		"memory": "128GB",
+		"amount": "590000"
+	},
+	{
+		"id": "3",
+		"order_id": "4085927ae5f8da4a2375",
+		"invoice_id": "SW-00003",
+		"product": "UK USED IPHONE X",
+		"imei": "354869095887592",
+		"color": "SPACE GRAY",
+		"memory": "64GB",
+		"amount": "200000"
+	},
+	{
+		"id": "4",
+		"order_id": "d75d18780348e1e84e82",
+		"invoice_id": "SW-00004",
+		"product": "USED IPHONE XR",
+		"imei": "356432109225040",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "180000"
+	},
+	{
+		"id": "5",
+		"order_id": "dfea4ee0432017d6cd25",
+		"invoice_id": "SW-00005",
+		"product": "UK USED IPHONE XSMAX[SWAPPING]",
+		"imei": "357272090662960",
+		"color": "GOLD",
+		"memory": "64GB",
+		"amount": "20000"
+	},
+	{
+		"id": "6",
+		"order_id": "e68f4b51ede253c67c03",
+		"invoice_id": "SW-00006",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "357104910425353",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "480000"
+	},
+	{
+		"id": "7",
+		"order_id": "3198a10acd825d8467fd",
+		"invoice_id": "SW-00007",
+		"product": "UK USED SAMSUNG S10",
+		"imei": "352341109658312",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "230000"
+	},
+	{
+		"id": "8",
+		"order_id": "a1cb6d7513f5b1390fab",
+		"invoice_id": "SW-00008",
+		"product": "UK USED IPHONE 13PRO",
+		"imei": "355677813557259",
+		"color": "GRAY",
+		"memory": "256GB",
+		"amount": "680000"
+	},
+	{
+		"id": "9",
+		"order_id": "8598dee184b95603c7ef",
+		"invoice_id": "SW-0009",
+		"product": "UK USED IPHONE XSMAX[SWAPPING ]",
+		"imei": "357270095915466",
+		"color": "SPACE GRAY",
+		"memory": "64GB",
+		"amount": "145000"
+	},
+	{
+		"id": "10",
+		"order_id": "e5c80331fd4c03b7c2d5",
+		"invoice_id": "SW-00010",
+		"product": "UK USED IPHONE XR",
+		"imei": "356431105305046",
+		"color": "BLACK",
+		"memory": "128GB",
+		"amount": "260000"
+	},
+	{
+		"id": "11",
+		"order_id": "e5c80331fd4c03b7c2d5",
+		"invoice_id": "SW-00010",
+		"product": "UK USED SAMSUNG S21 PLUS",
+		"imei": "350264683525461",
+		"color": "BLACK",
+		"memory": "256GB",
+		"amount": "390000"
+	},
+	{
+		"id": "12",
+		"order_id": "386686a65b776699ac6b",
+		"invoice_id": "SW-00011",
+		"product": "UK USED IPHONE 8",
+		"imei": "356087097617861",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "120000"
+	},
+	{
+		"id": "13",
+		"order_id": "72debde1ef9299b5d6c4",
+		"invoice_id": "SW-00012",
+		"product": "UK USED IPHONE 12 PRO",
+		"imei": "351001686058655",
+		"color": "BLUE",
+		"memory": "128GB",
+		"amount": "475000"
+	},
+	{
+		"id": "14",
+		"order_id": "e4cbc19fb86391782c06",
+		"invoice_id": "SW-00013",
+		"product": "UK USED SAMSUNG S21",
+		"imei": "358136700295348",
+		"color": "VIOLET",
+		"memory": "128GB",
+		"amount": "295000"
+	},
+	{
+		"id": "15",
+		"order_id": "20b21342d0f8b2828a72",
+		"invoice_id": "SW-00014",
+		"product": "UK USED HP ELITEBOOK 840 G5",
+		"imei": "5CG90278WB",
+		"color": "SILVER",
+		"memory": "8GB\\256GB",
+		"amount": "380000"
+	},
+	{
+		"id": "16",
+		"order_id": "b11e2d3a201fdf726cba",
+		"invoice_id": "SW-00015",
+		"product": "UK USED IPHONE 6S",
+		"imei": "355693071463171",
+		"color": "SILVER",
+		"memory": "64GB",
+		"amount": "75000"
+	},
+	{
+		"id": "17",
+		"order_id": "552bbfccf95a24cbf736",
+		"invoice_id": "SW-00016",
+		"product": "BRAND NEW GALAXY Z FOLD5",
+		"imei": "357150460448634",
+		"color": "BLACK",
+		"memory": "256GB",
+		"amount": "1500000000"
+	},
+	{
+		"id": "18",
+		"order_id": "994a1a8c7901a40ce816",
+		"invoice_id": "SW-00017",
+		"product": "BRAND NEW IPHONE 14 PRO MAX",
+		"imei": "357773244843166",
+		"color": "BLACK",
+		"memory": "256GB",
+		"amount": "945000"
+	},
+	{
+		"id": "19",
+		"order_id": "2ac3db83de1b37dcb204",
+		"invoice_id": "SW-00017",
+		"product": "BRAND NEW IPHONE 14 PRO MAX",
+		"imei": "357773244843166",
+		"color": "BLACK",
+		"memory": "256GB",
+		"amount": "945000"
+	},
+	{
+		"id": "20",
+		"order_id": "9bbac71267e4e016fb66",
+		"invoice_id": "SW-00018",
+		"product": "UK USED SAMSUNG GALAXY S21",
+		"imei": "350686131228209",
+		"color": "GRAY",
+		"memory": "128GB",
+		"amount": "295000"
+	},
+	{
+		"id": "21",
+		"order_id": "cf25e32d9a06884d6b1d",
+		"invoice_id": "SW-00019",
+		"product": "UK USED IPHONE 13 PRO MAX",
+		"imei": "353869223778177",
+		"color": "GOLD",
+		"memory": "128GB",
+		"amount": "700000"
+	},
+	{
+		"id": "22",
+		"order_id": "6c9b516775998eea7028",
+		"invoice_id": "SW-00020",
+		"product": "UK USED SERIES 4",
+		"imei": "FH7XM1D1KDV0",
+		"color": "SLIVER",
+		"memory": "44MM",
+		"amount": "140000"
+	},
+	{
+		"id": "23",
+		"order_id": "bbf867f4af1be7354e55",
+		"invoice_id": "SW-00021",
+		"product": "BRAND NEW AIRPOD 3 AND PS 5 FC24",
+		"imei": "YH6RVMK7GQ",
+		"color": "WHITE",
+		"memory": "",
+		"amount": "260000"
+	},
+	{
+		"id": "24",
+		"order_id": "f28f2cb61d4fb0e82d42",
+		"invoice_id": "SW-00022",
+		"product": "BRAND NEW IPHONE 15 PRO MAX[SWAPPING ]",
+		"imei": "354550168789077",
+		"color": "BLUE",
+		"memory": "256GB",
+		"amount": "640000"
+	},
+	{
+		"id": "25",
+		"order_id": "f25876c20014037f5a1b",
+		"invoice_id": "SW-00023",
+		"product": "BRAND NEW AIR CONDITIONER INDOOR AND OUTDOOR UNIT",
+		"imei": "5912117",
+		"color": "WHITE",
+		"memory": "",
+		"amount": "365000"
+	},
+	{
+		"id": "26",
+		"order_id": "1fd78cdb1720ae85c9d9",
+		"invoice_id": "SW-00024",
+		"product": "BRAND NEW AIR CONDITIONER OUTDOOR AND INDOOR UNIT",
+		"imei": "5912117",
+		"color": "WHITE",
+		"memory": "NILL",
+		"amount": "350000"
+	},
+	{
+		"id": "27",
+		"order_id": "0127359090e1bf1925db",
+		"invoice_id": "SW-00025",
+		"product": "BRAND NEW IPHONE 15PROMAX[SWAPPING]",
+		"imei": "354550168789077",
+		"color": "BLUE",
+		"memory": "256GB",
+		"amount": "1600000"
+	},
+	{
+		"id": "28",
+		"order_id": "15f65de2dbfe4dcd2d82",
+		"invoice_id": "SW-00026",
+		"product": "UK USED IPHONE 13 PRO MAX",
+		"imei": "354798781447330",
+		"color": "SLIVER",
+		"memory": "512GB",
+		"amount": "760000"
+	},
+	{
+		"id": "29",
+		"order_id": "b8480503782f908fda24",
+		"invoice_id": "SW-00027",
+		"product": "BRAND NEW PS5",
+		"imei": "S01,E4410122X12821522",
+		"color": "WHITE",
+		"memory": "",
+		"amount": "700000"
+	},
+	{
+		"id": "30",
+		"order_id": "4ca609e630cec3b762cd",
+		"invoice_id": "SW-00028",
+		"product": "UK USED IPHONE 7",
+		"imei": "359458080017681",
+		"color": "BLACK",
+		"memory": "32GB",
+		"amount": "125000"
+	},
+	{
+		"id": "31",
+		"order_id": "8d4b836f069fcf1ba755",
+		"invoice_id": "SW-00029",
+		"product": "UK USED IPHONE XR",
+		"imei": "356429107585292",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "270000"
+	},
+	{
+		"id": "32",
+		"order_id": "a338a1ae22d80a546b02",
+		"invoice_id": "SW-00030",
+		"product": "UK USED IPHONE 6S",
+		"imei": "353308072138837",
+		"color": "GOLD",
+		"memory": "64GB",
+		"amount": "60000"
+	},
+	{
+		"id": "33",
+		"order_id": "b7b3e72dcb376c7fcaaa",
+		"invoice_id": "SW-00031",
+		"product": "BRAND NEW NOKIA 105",
+		"imei": "351013596815462",
+		"color": "CHARCOAL",
+		"memory": "",
+		"amount": "16000"
+	},
+	{
+		"id": "34",
+		"order_id": "b7b3e72dcb376c7fcaaa",
+		"invoice_id": "SW-00031",
+		"product": "BRAND NEW NOKIA 105",
+		"imei": "351013596808905",
+		"color": "CHARCOAL",
+		"memory": "",
+		"amount": "16000"
+	},
+	{
+		"id": "35",
+		"order_id": "dce115a62876f9969a53",
+		"invoice_id": "SW-00032",
+		"product": "BRAND NEW NOKIA 110",
+		"imei": "359112900767740",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "15000"
+	},
+	{
+		"id": "36",
+		"order_id": "f4acb31a39f8d60b739c",
+		"invoice_id": "SW-00033",
+		"product": "BRAND NEW IPHONE 15PR0MAX AND PLAYSTATION PORTAL",
+		"imei": "359779344628017",
+		"color": "BLUE",
+		"memory": "256GB",
+		"amount": "1900000"
+	},
+	{
+		"id": "37",
+		"order_id": "56929a72d072473951e0",
+		"invoice_id": "SW-00034",
+		"product": "UK USED IPHONE 12",
+		"imei": "359669604782309",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "440000"
+	},
+	{
+		"id": "38",
+		"order_id": "5b0e35d07560376fd1c9",
+		"invoice_id": "SW-00035",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "359735194178115",
+		"color": "BLUE",
+		"memory": "128GB",
+		"amount": "620000"
+	},
+	{
+		"id": "39",
+		"order_id": "82298fe95430a60a8811",
+		"invoice_id": "SW-00036",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "359871978494228",
+		"color": "GRAPHITE",
+		"memory": "128GB",
+		"amount": "440000"
+	},
+	{
+		"id": "40",
+		"order_id": "d34011fd9b6676f97c86",
+		"invoice_id": "SW-00037",
+		"product": "BRAND NEW IPHONE 15PROMAX",
+		"imei": "35540715005",
+		"color": "WHITE",
+		"memory": "512GB",
+		"amount": "1660000"
+	},
+	{
+		"id": "41",
+		"order_id": "f6de8fbe0bc1841cc06d",
+		"invoice_id": "SW-00038",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "353509879491812",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "420000"
+	},
+	{
+		"id": "42",
+		"order_id": "0853c2e3e046a86a3978",
+		"invoice_id": "SW-00039",
+		"product": "BRAND NEW IPHONE 15PRO",
+		"imei": "356116981234382",
+		"color": "BLACK",
+		"memory": "512GB",
+		"amount": "1660000"
+	},
+	{
+		"id": "43",
+		"order_id": "7ca97dc34f25bf7e2385",
+		"invoice_id": "SW-00040",
+		"product": "UK USED HP ELITEBOOK 1040 G3G5",
+		"imei": "5CD7465L9F",
+		"color": "GRAY",
+		"memory": "256GB",
+		"amount": "300000"
+	},
+	{
+		"id": "44",
+		"order_id": "8f8f8c2f835405009c1c",
+		"invoice_id": "SW-00041",
+		"product": "UK USED IPHONE X",
+		"imei": "354859093727890",
+		"color": "GRAPHITE",
+		"memory": "64GB",
+		"amount": "200000"
+	},
+	{
+		"id": "45",
+		"order_id": "9a7cc7e78e93ac8afe87",
+		"invoice_id": "SW-00042",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "356462526724721",
+		"color": "BLUE",
+		"memory": "256GB",
+		"amount": "545000"
+	},
+	{
+		"id": "46",
+		"order_id": "9441acc9b7bc32df1837",
+		"invoice_id": "SW-00043",
+		"product": " USED IPHONE 11 PRO MAX",
+		"imei": "353898102789484",
+		"color": "GRAPHITE",
+		"memory": "256GB",
+		"amount": "370000"
+	},
+	{
+		"id": "47",
+		"order_id": "4e625c9bdf820fa70f1c",
+		"invoice_id": "SW-00044",
+		"product": "UK USED IPHONE 8",
+		"imei": "356088099847365",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "145000"
+	},
+	{
+		"id": "48",
+		"order_id": "4e827b270c25ee12d9ea",
+		"invoice_id": "SW-00045",
+		"product": "UK USED IPHONE 14PROMAX",
+		"imei": "353266547164160",
+		"color": "PURPLE",
+		"memory": "128GB",
+		"amount": "1050000"
+	},
+	{
+		"id": "49",
+		"order_id": "01b6fdd44aad297b8376",
+		"invoice_id": "SW-00046",
+		"product": "BRAND NEW FLIP 6",
+		"imei": "CS0534= GM00820049",
+		"color": "GRAY",
+		"memory": "",
+		"amount": "120000"
+	},
+	{
+		"id": "50",
+		"order_id": "a3948f786dfe0652715d",
+		"invoice_id": "SW-00047",
+		"product": "UK USED MACBOOK AIR 2023",
+		"imei": "JX5D9TV43V",
+		"color": "BLUE",
+		"memory": "512GB 8GB RAM",
+		"amount": "1500000"
+	},
+	{
+		"id": "51",
+		"order_id": "0a0c9b16b742015c0d54",
+		"invoice_id": "SW-00048",
+		"product": "UK USED IPHONE 11 PRO MAX",
+		"imei": "353925109597303",
+		"color": "WHITE",
+		"memory": "64GB",
+		"amount": "470000"
+	},
+	{
+		"id": "52",
+		"order_id": "d8c1df7350fad4a4992f",
+		"invoice_id": "SW-00049",
+		"product": "UK USED IPHONE 11PROMAX",
+		"imei": "353921107887069",
+		"color": "GREEN",
+		"memory": "64GB",
+		"amount": "470000"
+	},
+	{
+		"id": "53",
+		"order_id": "380cc904f2a23b31bea2",
+		"invoice_id": "SW-00050",
+		"product": "BRAND NEW POWERLOGY",
+		"imei": "6297000886992",
+		"color": "BLACK",
+		"memory": "30000MAH",
+		"amount": "13000"
+	},
+	{
+		"id": "54",
+		"order_id": "26ba5ca4adbb75ae95fb",
+		"invoice_id": "SW-00051",
+		"product": "UK USED SAMSUNG S10",
+		"imei": "352341109872822",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "220000"
+	},
+	{
+		"id": "55",
+		"order_id": "6859dbc521adf05857d9",
+		"invoice_id": "SW-00052",
+		"product": "BRAND NEW IPHONE 15PRO",
+		"imei": "353171926576382",
+		"color": "BLACK",
+		"memory": "256GB",
+		"amount": "1400000"
+	},
+	{
+		"id": "56",
+		"order_id": "318dbf17e05c3888da17",
+		"invoice_id": "SW-00053",
+		"product": "UK USED SAMSUNG GALAXY S10",
+		"imei": "352341109684359",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "230000"
+	},
+	{
+		"id": "57",
+		"order_id": "f8bcb65a4c02125b315f",
+		"invoice_id": "SW-00054",
+		"product": "UK USED IPHONE XR",
+		"imei": "357379098042879",
+		"color": "WHITE",
+		"memory": "64GB",
+		"amount": "190000"
+	},
+	{
+		"id": "58",
+		"order_id": "506149aa053ef4fd22e8",
+		"invoice_id": "SW-00055",
+		"product": "BRAND NEW GO 3",
+		"imei": "DT0057-CN023468",
+		"color": "GREEN",
+		"memory": "",
+		"amount": "49000"
+	},
+	{
+		"id": "59",
+		"order_id": "78a3cef8d623b8f91be3",
+		"invoice_id": "SW-00056",
+		"product": "UK USED IPHONE 12 PRO MAX",
+		"imei": "353167665215083",
+		"color": "GRAPHITE",
+		"memory": "128GB",
+		"amount": "670000"
+	},
+	{
+		"id": "60",
+		"order_id": "81503a8e5c50eded5969",
+		"invoice_id": "SW-00057",
+		"product": "BRAND NEW GO3",
+		"imei": "ND0715-IK0088897",
+		"color": "BLACK",
+		"memory": "",
+		"amount": "49000"
+	},
+	{
+		"id": "61",
+		"order_id": "bf4394c6a0d05baddcfa",
+		"invoice_id": "SW-00058",
+		"product": "UK USED IPHONE 12",
+		"imei": "353051119737845",
+		"color": "BLUE",
+		"memory": "64GB",
+		"amount": "380000"
+	},
+	{
+		"id": "62",
+		"order_id": "7e0e87205d0ecf40b921",
+		"invoice_id": "SW-00059",
+		"product": "BRAND NEW IPHONE 15PROMAX",
+		"imei": "352832406326017",
+		"color": "WHITE",
+		"memory": "512GB",
+		"amount": "1750000"
+	},
+	{
+		"id": "63",
+		"order_id": "7e0e87205d0ecf40b921",
+		"invoice_id": "SW-00059",
+		"product": "UK USED SAMSUNG GALAXY S20 ULTRA",
+		"imei": "354084111492126",
+		"color": "BLACK",
+		"memory": "128GB",
+		"amount": "350000"
+	},
+	{
+		"id": "64",
+		"order_id": "ed8538b29e1d369ba65a",
+		"invoice_id": "SW-00060",
+		"product": "UK USED IPHONE14PROMAX",
+		"imei": "352348746007712",
+		"color": "PURPLE",
+		"memory": "128GB",
+		"amount": "1050000"
+	},
+	{
+		"id": "65",
+		"order_id": "2246449ac0d8e2f3de27",
+		"invoice_id": "SW-00061",
+		"product": "UK USED IPHONE 12PROMAX[SWAPPING]",
+		"imei": "350002267566455",
+		"color": "SILVER",
+		"memory": "128GB",
+		"amount": "330000"
+	},
+	{
+		"id": "66",
+		"order_id": "3bf40185fde37f3b642b",
+		"invoice_id": "SW-00062",
+		"product": "UK USED IPHONE 11",
+		"imei": "352988114107444",
+		"color": "PURPLE",
+		"memory": "64GB",
+		"amount": "310000"
+	},
+	{
+		"id": "67",
+		"order_id": "e1ada28f05991d810d83",
+		"invoice_id": "SW-00063",
+		"product": "UK USED IPHONE 11PROMAX",
+		"imei": "352848112235128",
+		"color": "GREEN",
+		"memory": "256GB",
+		"amount": "470000"
+	},
+	{
+		"id": "68",
+		"order_id": "6b547640ed377805d8b8",
+		"invoice_id": "SW-00064",
+		"product": "OPEN BOX PS5 WITH PAD",
+		"imei": "S01=E43C0122X12771903",
+		"color": "WHITE",
+		"memory": "1TB",
+		"amount": "770000"
+	},
+	{
+		"id": "69",
+		"order_id": "b54d01f0a84e692b217b",
+		"invoice_id": "SW-00065",
+		"product": "BRAND NEW GALAXY A05",
+		"imei": "354660975135099",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "110000"
+	},
+	{
+		"id": "70",
+		"order_id": "b54d01f0a84e692b217b",
+		"invoice_id": "SW-00065",
+		"product": "BRAND NEW GALAXY A05",
+		"imei": "357492756299390",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "110000"
+	},
+	{
+		"id": "71",
+		"order_id": "f661089cd29860271639",
+		"invoice_id": "SW-00066",
+		"product": "BRAND NEW LIVE 660",
+		"imei": "TL1112-CN0070122",
+		"color": "SLIVER",
+		"memory": "",
+		"amount": "140000"
+	},
+	{
+		"id": "72",
+		"order_id": "1950b220e2bbf144899a",
+		"invoice_id": "SW-00067",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "350408489687708",
+		"color": "GRAPHITE",
+		"memory": "256GB ",
+		"amount": "1300000"
+	},
+	{
+		"id": "73",
+		"order_id": "1950b220e2bbf144899a",
+		"invoice_id": "SW-00067",
+		"product": "UK USED WATCH ULTRA",
+		"imei": "GDK6XMK9DW",
+		"color": "CRYSTAL",
+		"memory": "49MM",
+		"amount": "0"
+	},
+	{
+		"id": "74",
+		"order_id": "2de2eefd4cc959d564d6",
+		"invoice_id": "SW-00068",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "356740913961349",
+		"color": "GRAPHITE",
+		"memory": "128GB",
+		"amount": "510000"
+	},
+	{
+		"id": "75",
+		"order_id": "d4ca3dc72c0f19bc703d",
+		"invoice_id": "SW-00069",
+		"product": "UK USED IPHONE XR",
+		"imei": "356446105932565",
+		"color": "BLACK",
+		"memory": "128GB",
+		"amount": "265000"
+	},
+	{
+		"id": "76",
+		"order_id": "8cb01ca5400a8ecea4ff",
+		"invoice_id": "SW-00070",
+		"product": "UK USED IPHONE 11",
+		"imei": "356863110370146",
+		"color": "PURPLE",
+		"memory": "128GB",
+		"amount": "350000"
+	},
+	{
+		"id": "77",
+		"order_id": "8cb01ca5400a8ecea4ff",
+		"invoice_id": "SW-00070",
+		"product": "IPHONE CHARGER",
+		"imei": "",
+		"color": "WHITE",
+		"memory": "",
+		"amount": "10000"
+	},
+	{
+		"id": "78",
+		"order_id": "d96090c1db17d65d6d3c",
+		"invoice_id": "SW-00071",
+		"product": "TWO POWERBANK",
+		"imei": "",
+		"color": "WHITE AND BLACK",
+		"memory": "10000MAH",
+		"amount": "32000"
+	},
+	{
+		"id": "79",
+		"order_id": "ae7cac7435c45118a69d",
+		"invoice_id": "SW-00072",
+		"product": "POWERBANK",
+		"imei": "",
+		"color": "WHITE",
+		"memory": "10000MAH",
+		"amount": "16000"
+	},
+	{
+		"id": "80",
+		"order_id": "ac63e73df831c8132c12",
+		"invoice_id": "SW-00073",
+		"product": "UK USED IPHONE 12 PRO MAX",
+		"imei": "356721118219402",
+		"color": "GOLD",
+		"memory": "128GB",
+		"amount": "640000"
+	},
+	{
+		"id": "81",
+		"order_id": "6ddd8ad79fa68f2e8e32",
+		"invoice_id": "SW-00074",
+		"product": "UK USED IPHONE XR",
+		"imei": "352885112534803",
+		"color": "WHITE",
+		"memory": "64GB",
+		"amount": "229000"
+	},
+	{
+		"id": "82",
+		"order_id": "b310e8244a179bd8343d",
+		"invoice_id": "SW-00075",
+		"product": "UK USED IPHONE XR",
+		"imei": "352885112534803",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "229000"
+	},
+	{
+		"id": "83",
+		"order_id": "d039b187e0bc9c699f5e",
+		"invoice_id": "SW-00076",
+		"product": "POWERBANK",
+		"imei": "",
+		"color": "BLACK",
+		"memory": "10000MAH",
+		"amount": "17000"
+	},
+	{
+		"id": "84",
+		"order_id": "fa833a50f62586e2c6ff",
+		"invoice_id": "SW-00077",
+		"product": "AIRPODS PRO 2 USB C",
+		"imei": "VDQDKDC9N4",
+		"color": "WHITE",
+		"memory": "",
+		"amount": "290000"
+	},
+	{
+		"id": "85",
+		"order_id": "5d03f059bac8c11c94c2",
+		"invoice_id": "SW-00078",
+		"product": "XTREME 3",
+		"imei": "GG1049-DN0030628",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "290000"
+	},
+	{
+		"id": "86",
+		"order_id": "5d03f059bac8c11c94c2",
+		"invoice_id": "SW-00078",
+		"product": "XTREME 3",
+		"imei": "GG1049-DN0030678",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "290000"
+	},
+	{
+		"id": "87",
+		"order_id": "4414dcbc62c15b871119",
+		"invoice_id": "SW-00079",
+		"product": "CHARGE 5",
+		"imei": "TL1126-LM0614684",
+		"color": "BLACK",
+		"memory": "",
+		"amount": "159000"
+	},
+	{
+		"id": "88",
+		"order_id": "4414dcbc62c15b871119",
+		"invoice_id": "SW-00079",
+		"product": "CHARGE 5",
+		"imei": "TL1127-DN0233580",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "159000"
+	},
+	{
+		"id": "89",
+		"order_id": "4414dcbc62c15b871119",
+		"invoice_id": "SW-00079",
+		"product": "XTREME 3",
+		"imei": "GG1049-DN0030629",
+		"color": "",
+		"memory": "",
+		"amount": "290000"
+	},
+	{
+		"id": "90",
+		"order_id": "2110e914a02efb6ca09a",
+		"invoice_id": "SW-00080",
+		"product": "XTREME  3",
+		"imei": "GG1049-DN0029478",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "290000"
+	},
+	{
+		"id": "91",
+		"order_id": "2110e914a02efb6ca09a",
+		"invoice_id": "SW-00080",
+		"product": "XTREME 3",
+		"imei": "GG1049-DN0030679",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "290000"
+	},
+	{
+		"id": "92",
+		"order_id": "4f4cf0e9735daad3406f",
+		"invoice_id": "SW-00081",
+		"product": "UK USED IPHONE 6S",
+		"imei": "358569079637270",
+		"color": "GRAY",
+		"memory": "128",
+		"amount": "75000"
+	},
+	{
+		"id": "93",
+		"order_id": "b29a4bd2f158cccacfbe",
+		"invoice_id": "SW-00082",
+		"product": "UK USED IPHONE XR",
+		"imei": "356826110287727",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "230000"
+	},
+	{
+		"id": "94",
+		"order_id": "c05dc06a2d49c2e2c89e",
+		"invoice_id": "SW-00083",
+		"product": "UK USED IPHONE 13PROMAX",
+		"imei": "350911502026150",
+		"color": "GOLD",
+		"memory": "128GB",
+		"amount": "760000"
+	},
+	{
+		"id": "95",
+		"order_id": "230ad3bb47d596f75e92",
+		"invoice_id": "SW-00084",
+		"product": "BRAND NEW MACBOOK PRO",
+		"imei": "CN2FP1WR7C",
+		"color": "SPACE BLACK",
+		"memory": "36GB  512GB",
+		"amount": "3350000"
+	},
+	{
+		"id": "96",
+		"order_id": "1271c1ebb39f99e7fac9",
+		"invoice_id": "SW-00085",
+		"product": "BRAND NEW XTREME 3",
+		"imei": "GG1049-DN0029441",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "305000"
+	},
+	{
+		"id": "97",
+		"order_id": "1271c1ebb39f99e7fac9",
+		"invoice_id": "SW-00085",
+		"product": "UK USED 13",
+		"imei": "358743275930413",
+		"color": "MIDNIGHT",
+		"memory": "128GB",
+		"amount": "580000"
+	},
+	{
+		"id": "98",
+		"order_id": "1271c1ebb39f99e7fac9",
+		"invoice_id": "SW-00085",
+		"product": "UK USED XS",
+		"imei": "357204097312448",
+		"color": "GOLD",
+		"memory": "64GB",
+		"amount": "255000"
+	},
+	{
+		"id": "99",
+		"order_id": "5c695ed7f5246326cdb2",
+		"invoice_id": "SW-00086",
+		"product": "UK USED SAMSUNG GALAXY S20PLUS",
+		"imei": "355464112527386",
+		"color": "BLACK",
+		"memory": "128GB",
+		"amount": "290000"
+	},
+	{
+		"id": "100",
+		"order_id": "6ef0b7eb9929e2a47326",
+		"invoice_id": "SW-00087",
+		"product": "BRAND NEW MACBOOK PRO",
+		"imei": "CN2FP1WR7C",
+		"color": "SPACE BLACK",
+		"memory": "36GB    512GB",
+		"amount": "3320000"
+	},
+	{
+		"id": "101",
+		"order_id": "8e2ad8746cd1c0c5bf1f",
+		"invoice_id": "SW-00088",
+		"product": "BRAND NEW CHARGE 5",
+		"imei": "TL1131-DN0044137",
+		"color": "GREEN",
+		"memory": "",
+		"amount": "160000"
+	},
+	{
+		"id": "102",
+		"order_id": "8e2ad8746cd1c0c5bf1f",
+		"invoice_id": "SW-00088",
+		"product": "BRAND NEW CHARGE 5",
+		"imei": "TL1126-CN0685349",
+		"color": "BLACK",
+		"memory": "",
+		"amount": "160000"
+	},
+	{
+		"id": "103",
+		"order_id": "8e2ad8746cd1c0c5bf1f",
+		"invoice_id": "SW-00088",
+		"product": "BRAND NEW CHARGE 5",
+		"imei": "TL1132-DN0089345",
+		"color": "PINK",
+		"memory": "",
+		"amount": "160000"
+	},
+	{
+		"id": "104",
+		"order_id": "8e2ad8746cd1c0c5bf1f",
+		"invoice_id": "SW-00088",
+		"product": "XTREME 3",
+		"imei": "GG1049-DN0030590",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "290000"
+	},
+	{
+		"id": "105",
+		"order_id": "3486053a8379a2ca36b2",
+		"invoice_id": "SW-00089",
+		"product": "UK USED HP ELITEBOOK 820 G3",
+		"imei": "5CG7461W5M",
+		"color": "SPACE GRAY",
+		"memory": "8GB   256GB",
+		"amount": "210000"
+	},
+	{
+		"id": "106",
+		"order_id": "3486053a8379a2ca36b2",
+		"invoice_id": "SW-00089",
+		"product": "FLASHDRIVE WITH MOUSE",
+		"imei": "",
+		"color": "BLACK",
+		"memory": "16GB",
+		"amount": "10000"
+	},
+	{
+		"id": "107",
+		"order_id": "3f0a059c684e39454bc8",
+		"invoice_id": "SW-00090",
+		"product": "UK USED IPHONE X",
+		"imei": "353051098434133",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "200000"
+	},
+	{
+		"id": "108",
+		"order_id": "4502dd557d60cdbb15c8",
+		"invoice_id": "SW-00091",
+		"product": "POWERBANK",
+		"imei": "",
+		"color": "WHITE",
+		"memory": "10000MAH",
+		"amount": "16000"
+	},
+	{
+		"id": "109",
+		"order_id": "d5aaff8c478e40187ed3",
+		"invoice_id": "SW-00092",
+		"product": "UK USED IPHONE 13",
+		"imei": "351548609832129",
+		"color": "RED",
+		"memory": "256GB",
+		"amount": "600000"
+	},
+	{
+		"id": "110",
+		"order_id": "217f1a5b7e4affd09bad",
+		"invoice_id": "SW-00093",
+		"product": "UK USED SAMSUNG GALAXY S20PLUS",
+		"imei": "355464112663728",
+		"color": "BLACK",
+		"memory": "128GB",
+		"amount": "290000"
+	},
+	{
+		"id": "111",
+		"order_id": "549aac263784a0dcb82a",
+		"invoice_id": "SW-00094",
+		"product": "UK USED IPHONE 6",
+		"imei": "359238067224256",
+		"color": "SILVER",
+		"memory": "16GB",
+		"amount": "55000"
+	},
+	{
+		"id": "112",
+		"order_id": "21875ffc92429bb85819",
+		"invoice_id": "SW-00095",
+		"product": "BRAND NEW NOKIA 110",
+		"imei": "359112900772369",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "15000"
+	},
+	{
+		"id": "113",
+		"order_id": "5e31396940138bda5904",
+		"invoice_id": "SW-00096",
+		"product": "OPEN BOX IPAD",
+		"imei": "K6RX594P4F",
+		"color": "SPACE GRAY",
+		"memory": "64GB",
+		"amount": "340000"
+	},
+	{
+		"id": "114",
+		"order_id": "0413fcf33f77ec494a18",
+		"invoice_id": "SW-00097",
+		"product": "BRAND NEW IPHONE 14PRO",
+		"imei": "357154673783175",
+		"color": "PURPLE",
+		"memory": "128GB",
+		"amount": "1080000"
+	},
+	{
+		"id": "115",
+		"order_id": "ba389295a845ca68ee48",
+		"invoice_id": "SW-00098",
+		"product": "UK USED IPHONE 11 PROMAX",
+		"imei": "353913108200558",
+		"color": "GRAY",
+		"memory": "64GB",
+		"amount": "375000"
+	},
+	{
+		"id": "116",
+		"order_id": "35696f31389b916250a3",
+		"invoice_id": "SW-0099",
+		"product": "BRAND NEW SAMSUNG TV",
+		"imei": "5L3H39DX100103",
+		"color": "BLACK",
+		"memory": "",
+		"amount": "900000"
+	},
+	{
+		"id": "117",
+		"order_id": "b692cf3dee67c94ccd96",
+		"invoice_id": "SW-00100",
+		"product": "UK USED IPHONE 13PROMAX",
+		"imei": "354798785478075",
+		"color": "GRAPHITE",
+		"memory": "256B",
+		"amount": "890000"
+	},
+	{
+		"id": "118",
+		"order_id": "3b0fe2a8ba849a96376d",
+		"invoice_id": "SW-00101",
+		"product": "UK USED IPHONE 14PROMAX[SWAPPING]",
+		"imei": "353742534924626",
+		"color": "PURPLE",
+		"memory": "256GB",
+		"amount": "690000"
+	},
+	{
+		"id": "119",
+		"order_id": "180ddd5b88864765b1b8",
+		"invoice_id": "SW-00102",
+		"product": "UK USED SAMSUNG GALAXY S10",
+		"imei": "352341109668576",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "230000"
+	},
+	{
+		"id": "120",
+		"order_id": "9704a54dc9122457976e",
+		"invoice_id": "SW-00103",
+		"product": "UK USED SAMSUNG GALAXY S10",
+		"imei": "352341109678161",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "230000"
+	},
+	{
+		"id": "121",
+		"order_id": "6b503deea36b951c4630",
+		"invoice_id": "SW-00104",
+		"product": "BRAND NEW BOOMBOX 3",
+		"imei": "ND0900-AO0030029",
+		"color": "BLACK",
+		"memory": "",
+		"amount": "500000"
+	},
+	{
+		"id": "122",
+		"order_id": "855ceea180f078a5c497",
+		"invoice_id": "SW-00105",
+		"product": "UK USED IPHONE XR",
+		"imei": "356834118523994",
+		"color": "BLACK",
+		"memory": "128GB",
+		"amount": "255000"
+	},
+	{
+		"id": "123",
+		"order_id": "412974cc12b06c4dbf89",
+		"invoice_id": "SW-00106",
+		"product": "BRAND NEW XTREME 3",
+		"imei": "6925281983245",
+		"color": "GRAY",
+		"memory": "",
+		"amount": "300000"
+	},
+	{
+		"id": "124",
+		"order_id": "179f98ec815f041c5f9a",
+		"invoice_id": "SW-00107",
+		"product": "UK USED SAMSUNG GALAXY S10",
+		"imei": "352341109677841",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "230000"
+	},
+	{
+		"id": "125",
+		"order_id": "58a56e0fed3c0afc2d30",
+		"invoice_id": "SW-00108",
+		"product": "UK USED GALAXY  FLIP3",
+		"imei": "350101090860539",
+		"color": "BLACK",
+		"memory": "128GB",
+		"amount": "340000"
+	},
+	{
+		"id": "126",
+		"order_id": "214fbf007567a9a66cb2",
+		"invoice_id": "SW-00109",
+		"product": "BRAND NEW PLAYSTATION 5",
+		"imei": "P-2745110-4",
+		"color": "WHITE",
+		"memory": "1TB",
+		"amount": "710000"
+	},
+	{
+		"id": "127",
+		"order_id": "e50643fcb2245211a5ca",
+		"invoice_id": "SW-00110",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "356688117923658",
+		"color": "SILVER",
+		"memory": "128GB",
+		"amount": "480000"
+	},
+	{
+		"id": "128",
+		"order_id": "8b064e446b63e6f8af28",
+		"invoice_id": "SW-00111",
+		"product": "BRAND NEW XTREME 3",
+		"imei": "6925281 983245",
+		"color": "GRAY",
+		"memory": "",
+		"amount": "290000"
+	},
+	{
+		"id": "129",
+		"order_id": "0cf565db1a189f9bd206",
+		"invoice_id": "SW-00112",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "351330889290439",
+		"color": "GRAPHITE",
+		"memory": "128GB",
+		"amount": "620000"
+	},
+	{
+		"id": "130",
+		"order_id": "542f7b8f140591a33787",
+		"invoice_id": "SW-00113",
+		"product": "UK USED IPHONE XSMAX",
+		"imei": "353094103422727",
+		"color": "GRAY",
+		"memory": "64GB",
+		"amount": "335000"
+	},
+	{
+		"id": "131",
+		"order_id": "dcb86c9209467a2c4c40",
+		"invoice_id": "SW-00114",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "350002267549808",
+		"color": "GRAPHITE",
+		"memory": "256GB",
+		"amount": "660000"
+	},
+	{
+		"id": "132",
+		"order_id": "c81ebd8b9acb03944e16",
+		"invoice_id": "SW-00115",
+		"product": "UK USED IPHONE 11",
+		"imei": "356549107305209",
+		"color": "RED",
+		"memory": "128GB",
+		"amount": "365000"
+	},
+	{
+		"id": "133",
+		"order_id": "2084c0b274e80777aee2",
+		"invoice_id": "SW-00116",
+		"product": "BRAND NEW FLIP 6",
+		"imei": "GG1088-DN0004367",
+		"color": "WHITE",
+		"memory": "",
+		"amount": "115000"
+	},
+	{
+		"id": "134",
+		"order_id": "8302fe3a7eb0e56c805b",
+		"invoice_id": "SW-00117",
+		"product": "UK USED IPHONE X ",
+		"imei": "353043093843541",
+		"color": "GRAPHITE",
+		"memory": "256GB",
+		"amount": "280000"
+	},
+	{
+		"id": "135",
+		"order_id": "e4da5cb7596743c1a704",
+		"invoice_id": "SW-00118",
+		"product": "BRAND NEW IPHONE 15PRO",
+		"imei": "359076424658307",
+		"color": "WHITE",
+		"memory": "256GB",
+		"amount": "1560000"
+	},
+	{
+		"id": "136",
+		"order_id": "f93da43fb70cc271bf6c",
+		"invoice_id": "SW-00119",
+		"product": "BRAND NEW NOKIA 110",
+		"imei": "359112900771940",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "15000"
+	},
+	{
+		"id": "137",
+		"order_id": "db33157d72a21b09221f",
+		"invoice_id": "SW-00120",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "352048885756620",
+		"color": "GRAPHITE",
+		"memory": "256GB",
+		"amount": "655000"
+	},
+	{
+		"id": "138",
+		"order_id": "3c7c710641bf779b1e9e",
+		"invoice_id": "SW-00121",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "350522070003941",
+		"color": "BLUE",
+		"memory": "256GB",
+		"amount": "500000"
+	},
+	{
+		"id": "139",
+		"order_id": "ab4aabb399e2e6176f75",
+		"invoice_id": "SW-00122",
+		"product": "UK USED IPHONE 12",
+		"imei": "354047645484125",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "440000"
+	},
+	{
+		"id": "140",
+		"order_id": "421ac1da4e4a660608de",
+		"invoice_id": "SW-00123",
+		"product": "UK USED IPHONE 13[SWAPPING]",
+		"imei": "351680929079832",
+		"color": "MIDNIGHT",
+		"memory": "256GB",
+		"amount": "380000"
+	},
+	{
+		"id": "141",
+		"order_id": "6d8de689c335ea3aa101",
+		"invoice_id": "SW-00124",
+		"product": "BRAND NEW IPAD 9TH GEN",
+		"imei": "KOC24J1WLJ",
+		"color": "SILVER",
+		"memory": "64GB",
+		"amount": "320000"
+	},
+	{
+		"id": "142",
+		"order_id": "b4db03836f67ec71898d",
+		"invoice_id": "SW-00125",
+		"product": "BRAND NEW CHARGE 5",
+		"imei": "TL1131-BN0040928",
+		"color": "GREEN",
+		"memory": "",
+		"amount": "180000"
+	},
+	{
+		"id": "143",
+		"order_id": "568d3a27bfc3a930cea6",
+		"invoice_id": "SW-00126",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "353167665961736",
+		"color": "GRAPHITE",
+		"memory": "128GB",
+		"amount": "650000"
+	},
+	{
+		"id": "144",
+		"order_id": "f1f5d4cc5af675da31a8",
+		"invoice_id": "SW-00127",
+		"product": "UK USED IPHONE 11 WITH CHARGER",
+		"imei": "352899118976140",
+		"color": "PURPLE",
+		"memory": "64GB",
+		"amount": "310000"
+	},
+	{
+		"id": "145",
+		"order_id": "e288652942eff7716dca",
+		"invoice_id": "SW-00128",
+		"product": "UK USED IPHONE 6S",
+		"imei": "358569079637270",
+		"color": "SILVER",
+		"memory": "128GB",
+		"amount": "85000"
+	},
+	{
+		"id": "146",
+		"order_id": "73a08cd7ab03001e07ce",
+		"invoice_id": "SW-00129",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "356462521596363",
+		"color": "BLUE",
+		"memory": "128GB",
+		"amount": "485000"
+	},
+	{
+		"id": "147",
+		"order_id": "56674f5796886407d123",
+		"invoice_id": "SW-00130",
+		"product": "UK USED IPHONE XR",
+		"imei": "353053105978946",
+		"color": "WHITE",
+		"memory": "128GB",
+		"amount": "260000"
+	},
+	{
+		"id": "148",
+		"order_id": "b7fdf64a442b7efc13a7",
+		"invoice_id": "SW-00131",
+		"product": "UK USED IPHONE 13",
+		"imei": "353941300951769",
+		"color": "MIDNIGHT",
+		"memory": "256GB",
+		"amount": "450000"
+	},
+	{
+		"id": "149",
+		"order_id": "b7456ce5d29ad4559f2c",
+		"invoice_id": "SW-00132",
+		"product": "USED IWATCH SERIES 6",
+		"imei": "",
+		"color": "GRAY",
+		"memory": "44MM",
+		"amount": "200000"
+	},
+	{
+		"id": "150",
+		"order_id": "913e25ad34e6162cac30",
+		"invoice_id": "SW-00133",
+		"product": "BRAND NEW STARLINK",
+		"imei": "KIT302982228",
+		"color": "WHITE",
+		"memory": "",
+		"amount": "520000"
+	},
+	{
+		"id": "151",
+		"order_id": "69c2890e04a1e639a825",
+		"invoice_id": "SW-00134",
+		"product": "BRAND NEW AIRPOD 3",
+		"imei": "PHW7J72W50",
+		"color": "WHITE",
+		"memory": "",
+		"amount": "200000"
+	},
+	{
+		"id": "152",
+		"order_id": "69c2890e04a1e639a825",
+		"invoice_id": "SW-00134",
+		"product": "BRAND NEW NOKIA 110 ",
+		"imei": "359112900777418",
+		"color": "BLUE",
+		"memory": "",
+		"amount": "16000"
+	},
+	{
+		"id": "153",
+		"order_id": "c8a59f24b90eb2ac14a3",
+		"invoice_id": "SW-00135",
+		"product": "BRAND NEW XTREME 3",
+		"imei": "6925281983245",
+		"color": "GRAY",
+		"memory": "",
+		"amount": "290000"
+	},
+	{
+		"id": "154",
+		"order_id": "e05f9aa94ef99069cbfe",
+		"invoice_id": "SW-00136",
+		"product": "UK USED IPHONE 11[SWAPPING]",
+		"imei": "352895117948791",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "255000"
+	},
+	{
+		"id": "155",
+		"order_id": "53bbff3d217c0a88ff2a",
+		"invoice_id": "SW-00137",
+		"product": "PS4 PAD",
+		"imei": "",
+		"color": "BLACK",
+		"memory": "",
+		"amount": "30000"
+	},
+	{
+		"id": "156",
+		"order_id": "d7d5743d4b2b527c786d",
+		"invoice_id": "SW-00138",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "358915484159527",
+		"color": "BLUE",
+		"memory": "256GB",
+		"amount": "520000"
+	},
+	{
+		"id": "157",
+		"order_id": "6ba3ec953e3b7f42d4a9",
+		"invoice_id": "SW-00139",
+		"product": "BRAND NEW IPHONE 15PROMAX[SWAPPING]",
+		"imei": "354068583646509",
+		"color": "BLUE",
+		"memory": "1TB",
+		"amount": "1050000"
+	},
+	{
+		"id": "158",
+		"order_id": "51923128b148e095fdc7",
+		"invoice_id": "SW-00140",
+		"product": "UK USED HP ELITEBOOK 1030 G2",
+		"imei": "5CG83876R8",
+		"color": "SPACE GRAY",
+		"memory": "8GB  256GB",
+		"amount": "420000"
+	},
+	{
+		"id": "159",
+		"order_id": "8e0e2a14a7c9b7213e3e",
+		"invoice_id": "SW-00141",
+		"product": "UK USED IPHONE 11PROMAX",
+		"imei": "352845114894415",
+		"color": "WHITE",
+		"memory": "256GB",
+		"amount": "485000"
+	},
+	{
+		"id": "160",
+		"order_id": "8180192a335bd73d8af2",
+		"invoice_id": "SW-00142",
+		"product": "BRAND NEW BOOMBOX 3",
+		"imei": "ND0900-AO0030028",
+		"color": "BLACJK",
+		"memory": "",
+		"amount": "520000"
+	},
+	{
+		"id": "161",
+		"order_id": "13d46e7e23a6fc86e8fb",
+		"invoice_id": "SW-00143",
+		"product": "BRAND NEW SAMSUNG TAB A",
+		"imei": "359653093360181",
+		"color": "BLACK",
+		"memory": "32GB",
+		"amount": "160000"
+	},
+	{
+		"id": "162",
+		"order_id": "85e6550b761ecd155b70",
+		"invoice_id": "SW-00144",
+		"product": "UK USED IPHONE 13[SWAPPING]",
+		"imei": "356174410628484",
+		"color": "MIDNIGHT",
+		"memory": "128GB",
+		"amount": "250000"
+	},
+	{
+		"id": "163",
+		"order_id": "948b4623b0731232c1c5",
+		"invoice_id": "SW-00145",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "356682115261559",
+		"color": "GRAPHITE",
+		"memory": "128GB",
+		"amount": "485000"
+	},
+	{
+		"id": "164",
+		"order_id": "cb85bbd4bf0c5b77a69d",
+		"invoice_id": "SW-00146",
+		"product": "UK USED SAMSUNG GALAXY FLIP3",
+		"imei": "350101091661142",
+		"color": "BLACK",
+		"memory": "128GB",
+		"amount": "330000"
+	},
+	{
+		"id": "165",
+		"order_id": "c430237d411e8d6b8440",
+		"invoice_id": "SW-00147",
+		"product": "UK USED IPHONE 11PROMAX",
+		"imei": "353892103967918",
+		"color": "GRAPHITE",
+		"memory": "256GB",
+		"amount": "430000"
+	},
+	{
+		"id": "166",
+		"order_id": "e339a41045d61f9c06c4",
+		"invoice_id": "SW-00148",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "357771753726806",
+		"color": "GOLD",
+		"memory": "128GB",
+		"amount": "650000"
+	},
+	{
+		"id": "167",
+		"order_id": "90f54a5f12660999ed20",
+		"invoice_id": "SW-00149",
+		"product": " BRAND NEW JBL TUNE 510",
+		"imei": "6925281982767",
+		"color": "BLACK",
+		"memory": "",
+		"amount": "80000"
+	},
+	{
+		"id": "168",
+		"order_id": "df1f4040777fda314660",
+		"invoice_id": "SW-00150",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "353167667062798",
+		"color": "GRAPHITE",
+		"memory": "128GB",
+		"amount": "650000"
+	},
+	{
+		"id": "169",
+		"order_id": "9ddf674896e829e3b52b",
+		"invoice_id": "SW-00151",
+		"product": "UK USED IPHONE XR",
+		"imei": "356446108348116",
+		"color": "CORAL",
+		"memory": "64GB",
+		"amount": "230000"
+	},
+	{
+		"id": "170",
+		"order_id": "c747a30c6f4fe0a272ec",
+		"invoice_id": "SW-00152",
+		"product": "UK USED IPHONE 12",
+		"imei": "353046112807207",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "360000"
+	},
+	{
+		"id": "171",
+		"order_id": "4e2f8aaaee24b6709ed5",
+		"invoice_id": "SW-00153",
+		"product": "UK USED SAMSUNG GALAXY Z FOLD3",
+		"imei": "353794354662885",
+		"color": "BLACK",
+		"memory": "256GB",
+		"amount": "560000"
+	},
+	{
+		"id": "172",
+		"order_id": "ec76b06e8abf0480c30d",
+		"invoice_id": "SW-00154",
+		"product": "USED IPHONE 12PROMAX[SWAPPING]",
+		"imei": "356725114732508",
+		"color": "GOLD",
+		"memory": "128GB",
+		"amount": "250000"
+	},
+	{
+		"id": "173",
+		"order_id": "7f8f628909a2c1c60e82",
+		"invoice_id": "SW-00155",
+		"product": "UK USED IPHONE 12PROMAX WITH EARPIECE AND CHARGER",
+		"imei": "354692278875642",
+		"color": "BLUE",
+		"memory": "128GB",
+		"amount": "660000"
+	},
+	{
+		"id": "174",
+		"order_id": "ed7d502263c7f2917d56",
+		"invoice_id": "SW-00156",
+		"product": "BRAND NEW JBL CHARGE 5",
+		"imei": "TL1129-EN0065844",
+		"color": "GRAY",
+		"memory": "",
+		"amount": "180000"
+	},
+	{
+		"id": "175",
+		"order_id": "debacc56bbe702943dad",
+		"invoice_id": "SW-00157",
+		"product": "UK USED IPHONE 11PROMAX[SWAPPING]",
+		"imei": "352857110431332",
+		"color": "GREEN",
+		"memory": "256GB",
+		"amount": "390000"
+	},
+	{
+		"id": "176",
+		"order_id": "db8951241fa67bfb8ba1",
+		"invoice_id": "SW-00158",
+		"product": "UK USED HP SPECTRE X360 CONVERTIBLE",
+		"imei": "5CD022BM1L",
+		"color": "GRAY",
+		"memory": "8GB 256GB",
+		"amount": "650000"
+	},
+	{
+		"id": "177",
+		"order_id": "84e555bdfcd33f3f040c",
+		"invoice_id": "SW-00159",
+		"product": "OPEN BOX  DELL",
+		"imei": "DCQ3963",
+		"color": "SPACE BLACK",
+		"memory": "32GB 1TB",
+		"amount": "1100000"
+	},
+	{
+		"id": "178",
+		"order_id": "555f34a4e6399f203920",
+		"invoice_id": "SW-00160",
+		"product": "BRAND NEW IPHONE 14PROMAX[SWAP]",
+		"imei": "353665902219446",
+		"color": "GOLD",
+		"memory": "128GB",
+		"amount": "1000000"
+	},
+	{
+		"id": "179",
+		"order_id": "23a325e63f12086e9b3b",
+		"invoice_id": "SW-00161",
+		"product": "UK USED SAMSUNG GALAXY  FLIP3",
+		"imei": "355333380067310",
+		"color": "BLACK",
+		"memory": "128GB",
+		"amount": "340000"
+	},
+	{
+		"id": "180",
+		"order_id": "861533c0c824e0c2690c",
+		"invoice_id": "SW-00162",
+		"product": "BRAND NEW IPHONE 14 PROMAX",
+		"imei": "357773242453406",
+		"color": "PURPLE",
+		"memory": "256GB",
+		"amount": "1340000"
+	},
+	{
+		"id": "181",
+		"order_id": "415a2645074ea69b759a",
+		"invoice_id": "SW-00163",
+		"product": "UK USED SAMSUNG GALAXY S20 PLUS",
+		"imei": "354144111417562",
+		"color": "GRAY",
+		"memory": "128GB",
+		"amount": "265000"
+	},
+	{
+		"id": "182",
+		"order_id": "e6f967dfd80d07678504",
+		"invoice_id": "SW-00164",
+		"product": "UK USED SAMSUNG S9",
+		"imei": "354818095444",
+		"color": "GRAY",
+		"memory": "64GB",
+		"amount": "140000"
+	},
+	{
+		"id": "183",
+		"order_id": "04c7d0999cb2b71cbb91",
+		"invoice_id": "SW-00165",
+		"product": "BRAND NEW REDMI A3X",
+		"imei": "864312077326266",
+		"color": "BLACK",
+		"memory": "64GB",
+		"amount": "129000"
+	},
+	{
+		"id": "184",
+		"order_id": "173451b546ba57903d5d",
+		"invoice_id": "SW-00166",
+		"product": "UK USED SAMSUNG S9",
+		"imei": "354818091175411",
+		"color": "GRAY",
+		"memory": "64GB",
+		"amount": "145000"
+	},
+	{
+		"id": "185",
+		"order_id": "ae59c4411d1f9993c61d",
+		"invoice_id": "SW-00167",
+		"product": "UK USED IPHONE 12PROMAX",
+		"imei": "353541321896579",
+		"color": "GRAPHITE",
+		"memory": "128GB",
+		"amount": "650000"
+	},
+	{
+		"id": "186",
+		"order_id": "e4f0c54849f4279e3803",
+		"invoice_id": "SW-00168",
+		"product": "UK USED IPHONE 12",
+		"imei": "358494244796275",
+		"color": "WHITE",
+		"memory": "64GB",
+		"amount": "370000"
+	},
+	{
+		"id": "187",
+		"order_id": "90d31c5f53af013b4544",
+		"invoice_id": "SW-00169",
+		"product": "UK USED IPHONE 11",
+		"imei": "356597101067234",
+		"color": "YELLOW",
+		"memory": "128GB",
+		"amount": "350000"
+	},
+	{
+		"id": "188",
+		"order_id": "39e955eeca7b61c91ed1",
+		"invoice_id": "SW-00170",
+		"product": "UK USED IPHONE 13PROMAX[SWAP]",
+		"imei": "354798782283312",
+		"color": "WHITE",
+		"memory": "512GB",
+		"amount": "490000"
+	},
+	{
+		"id": "189",
+		"order_id": "2264873c8e6afd6c6a87",
+		"invoice_id": "SW-00171",
+		"product": "BRAND NEW IPHONE 15PROMAX",
+		"imei": "354570352842367",
+		"color": "NATURAL",
+		"memory": "512GB",
+		"amount": "1900000"
+	},
+	{
+		"id": "190",
+		"order_id": "163d2d11e0172f2da2d8",
+		"invoice_id": "SW-00172",
+		"product": "UK USED SAMSUNG GALAXY FOLD 4[SWAP] ",
+		"imei": "358762982149828",
+		"color": "BLUE",
+		"memory": "256GB",
+		"amount": "600000"
+	},
+	{
+		"id": "191",
+		"order_id": "a5fc265a4f2ad7aced89",
+		"invoice_id": "SW-00173",
+		"product": "BRAND NEW IPAD PRO M4",
+		"imei": "HMXJH9CCPG",
+		"color": "BLACK",
+		"memory": "256GB",
+		"amount": "2100000"
+	},
+	{
+		"id": "192",
+		"order_id": "7e149246e1dfb3921c8d",
+		"invoice_id": "SW-00174",
+		"product": "UK USED GALAXY S21PLUS",
+		"imei": "358542950435577",
+		"color": "VIOLET",
+		"memory": "128GB",
+		"amount": "350000"
+	},
+	{
+		"id": "193",
+		"order_id": "b7b2bc0b310f316b47e9",
+		"invoice_id": "SW-00175",
+		"product": "BRAND NEW PS5 PAD",
+		"imei": "",
+		"color": "BLACK",
+		"memory": "",
+		"amount": "98000"
+	},
+	{
+		"id": "194",
+		"order_id": "7d28b112a8ad52ec0d8d",
+		"invoice_id": "SW-00176",
+		"product": "UK USED HP ELITEBOOK 840 G6",
+		"imei": "5CG94574D5",
+		"color": "GRAY",
+		"memory": "16GB 256GB",
+		"amount": "350000"
+	},
+	{
+		"id": "195",
+		"order_id": "127ad7a2b7f2ff26870f",
+		"invoice_id": "SW-00177",
+		"product": "UK USED IPHONE 13PROMAX",
+		"imei": "358538321987486",
+		"color": "BLUE",
+		"memory": "128GB",
+		"amount": "770000"
+	},
+	{
+		"id": "196",
+		"order_id": "c9cfad8c74d01bee2e93",
+		"invoice_id": "SW-00178",
+		"product": "UK USED HP ELITEBOOK 1030 G2",
+		"imei": "5CG75219ZS",
+		"color": "SPACE GRAY",
+		"memory": "8GB  256GB",
+		"amount": "385000"
+	},
+	{
+		"id": "197",
+		"order_id": "4471503bc9462eb5f4df",
+		"invoice_id": "SW-00179",
+		"product": "BRAND NEW CHARGE 5",
+		"imei": "TL1132-KN0100391",
+		"color": "PINK",
+		"memory": "",
+		"amount": "175000"
+	},
+	{
+		"id": "198",
+		"order_id": "ad5c4d5ceab41f235852",
+		"invoice_id": "SW-00180",
+		"product": "BRAND NEW GALAXY AO5S",
+		"imei": "358520508578056",
+		"color": "VIOLET",
+		"memory": "64GB",
+		"amount": "175000"
+	},
+	{
+		"id": "199",
+		"order_id": "f89f371327cb01436249",
+		"invoice_id": "SW-00181",
+		"product": "UK USED SAMSUNG S9",
+		"imei": "352680100544116",
+		"color": "GRAY",
+		"memory": "64GB",
+		"amount": "135000"
+	},
+	{
+		"id": "200",
+		"order_id": "f89f371327cb01436249",
+		"invoice_id": "SW-00181",
+		"product": "UK USED SAMSUNG S9",
+		"imei": "354818092449047",
+		"color": "GRAY",
+		"memory": "64GB",
+		"amount": "135000"
+	},
+	{
+		"id": "201",
+		"order_id": "0906c5b02d5ac894e4af",
+		"invoice_id": "SW-00182",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "351001687137292",
+		"color": "GOLD",
+		"memory": "128GB",
+		"amount": "510000"
+	},
+	{
+		"id": "202",
+		"order_id": "426ba4feffa3dc3fc9f7",
+		"invoice_id": "SW-00183",
+		"product": "UK USED IPHONE 12",
+		"imei": "353047111971812",
+		"color": "WHITE",
+		"memory": "64GB",
+		"amount": "155000"
+	},
+	{
+		"id": "203",
+		"order_id": "90aa1e31f9baa59ad2d2",
+		"invoice_id": "SW-00184",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "356680117795343",
+		"color": "BLUE",
+		"memory": "128GB",
+		"amount": "490000"
+	},
+	{
+		"id": "204",
+		"order_id": "403914840520405a2f68",
+		"invoice_id": "SW-00185",
+		"product": "UK USED SAMSUNG S9",
+		"imei": "354818093443064",
+		"color": "GRAY",
+		"memory": "64GB",
+		"amount": "145000"
+	},
+	{
+		"id": "205",
+		"order_id": "cbaa096354917b0390cc",
+		"invoice_id": "SW-00186",
+		"product": "UK USED IPHONE 12PRO",
+		"imei": "354523336255305",
+		"color": "BLUE",
+		"memory": "256GB",
+		"amount": "285000"
+	},
+	{
+		"id": "206",
+		"order_id": "b27e558b422ec0af9978",
+		"invoice_id": "SW-00187",
+		"product": "BRAND NEW NOKIA 105",
+		"imei": "350836846418344",
+		"color": "CHARCOAL",
+		"memory": "",
+		"amount": "15000"
+	},
+	{
+		"id": "207",
+		"order_id": "9fe2711d1a3321e91e7b",
+		"invoice_id": "SW-00188",
+		"product": "NINTENDO SWITCH ",
+		"imei": "XTJ70633315208",
+		"color": "BLACK",
+		"memory": "",
+		"amount": "430000"
+	},
+	{
+		"id": "208",
+		"order_id": "8c49dbc59f2a46c59980",
+		"invoice_id": "SW-00189",
+		"product": "BRAND NEW FIRE HD 8 KIDS",
+		"imei": "GN41XE0333750A72",
+		"color": "GREEN",
+		"memory": "32GB",
+		"amount": "175000"
+	},
+	{
+		"id": "209",
+		"order_id": "0dc8697b642bea7f1c4c",
+		"invoice_id": "SW-00190",
+		"product": "BRAND NEW NOKIA 105",
+		"imei": "351013594229443",
+		"color": "CHARCOAL",
+		"memory": "",
+		"amount": "15000"
+	}
+]

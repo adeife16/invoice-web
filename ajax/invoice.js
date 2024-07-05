@@ -28,7 +28,7 @@ function getId(){
 }
 
 
-function saveInvoice(invoice, name, phone, address, lot){
+function saveInvoice(invoice, name, phone, address, payment, lot){
 	$.ajax({
 		type: 'POST',
 		url: 'backend/invoice.php',
@@ -37,6 +37,7 @@ function saveInvoice(invoice, name, phone, address, lot){
 			name: name,
 			phone: phone,
 			address: address,
+			payment: payment,
 			lot: lot
 		}
 	})
@@ -44,6 +45,7 @@ function saveInvoice(invoice, name, phone, address, lot){
 		if(res == "success"){
 			alert_success('Record Saved Successfully!');
 			$("#save").attr("disabled", "disabled");
+			$("#print").removeAttr("disabled");
 		}
 	})
 }
